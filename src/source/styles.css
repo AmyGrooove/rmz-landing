@@ -1,0 +1,18 @@
+html {
+  background: url(/icons/background.png) no-repeat top fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+* {
+  font-family: El Messiri;
+  color: #ffffff;
+}

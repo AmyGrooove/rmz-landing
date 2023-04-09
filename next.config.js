@@ -1,0 +1,19 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  env: {
+    RMZ_ADDRESS_ETHEREUM: process.env.RMZ_ADDRESS_ETHEREUM,
+    RMZ_ADDRESS_GOERLI: process.env.RMZ_ADDRESS_GOERLI,
+    USDT_ADDRESS_ETHEREUM: process.env.USDT_ADDRESS_ETHEREUM,
+    USDT_ADDRESS_GOERLI: process.env.USDT_ADDRESS_GOERLI,
+    USDC_ADDRESS_ETHEREUM: process.env.USDC_ADDRESS_ETHEREUM,
+    USDC_ADDRESS_GOERLI: process.env.USDC_ADDRESS_GOERLI,
+    DAI_ADDRESS_ETHEREUM: process.env.DAI_ADDRESS_ETHEREUM,
+    DAI_ADDRESS_GOERLI: process.env.DAI_ADDRESS_GOERLI,
+    EXCHANGER_ADDRESS_ETHEREUM: process.env.EXCHANGER_ADDRESS_ETHEREUM,
+    EXCHANGER_ADDRESS_GOERLI: process.env.EXCHANGER_ADDRESS_GOERLI,
+    NETWORK_TEST: process.env.NETWORK_TEST,
+  },
+};
+
+module.exports = nextConfig;
